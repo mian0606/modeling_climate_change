@@ -1,0 +1,14 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>地区故事与改善</title><link rel="stylesheet" href="style.css"><script src="d3.min.js"></script><script type="module" src="main.js"></script></head><body data-page="regions">
+<nav class="page-nav"><a href="index.html">一生的气候</a><a aria-current="page" href="regions.html">地区故事与改善</a><a href="yangtze.html">长江历史专题</a></nav>
+<header><a href="index.html">ONE ATMOSPHERE <span>地区故事</span></a><span>同样的行动，不同地方的改善</span></header>
+<section class="intro"><p class="eyebrow">LOREM IPSUM</p><h1>Lorem ipsum dolor,<br>sit amet consectetur.</h1><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p id="status" role="status">正在读取网页数据…</p></section>
+<main id="experience"><div class="controls"><label>日历年份 <input id="region-year" type="range" min="2015" max="2100" value="2070" step="1"></label><strong id="year">2070</strong><label>排放情景 <select id="scenario-select"><option value="ssp585">很高 · SSP5-8.5</option><option value="ssp370">高 · SSP3-7.0</option><option value="ssp245">中等 · SSP2-4.5</option><option value="ssp126">低 · SSP1-2.6</option></select></label><label>指标 <select id="indicator">
+<option value="temperature">气温</option>
+<option value="seaLevel">动态海平面</option>
+<option value="soil">表层土壤水</option>
+</select></label><label>比较 <select id="mode">
+<option value="warming">相对共同基准</option>
+<option value="avoided">相对 SSP5-8.5</option>
+</select></label></div>
+<div class="regional-figure"><div class="figure-head"><div><p class="eyebrow" id="scenario-code">SSP5-8.5</p><h2 id="scenario-title">很高排放的未来</h2></div><div class="metric"><strong id="global-value">—</strong><span id="metric-label">全球平均气温变化</span></div></div><div class="visuals"><section class="map-panel"><svg id="map" viewBox="0 0 900 480" aria-label="指标变化地图"></svg><svg id="legend" viewBox="0 0 900 52"></svg><p id="baseline" class="caption">数据尚未载入。空白不等于没有变化。</p><div id="region-buttons" aria-label="选择地区"></div><article id="region-story" aria-live="polite"></article><p><a href="yangtze.html">中国：进入长江流域历史专题 →</a></p></section><aside><h3 id="gap-heading">各地区的气温</h3><p class="caption">灰色：很高排放；彩色：当前选择。固定尺度，比较同一年份。</p><svg id="gap" viewBox="0 0 410 430" aria-label="地区指标对比"></svg><p id="gap-summary"></p></aside></div></div></main>
+<section class="ending"><h2>Lorem ipsum dolor sit amet.</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><p>每个指标使用 SSP5-8.5 的 2015–2034 年基准与固定色阶。地图为居中十年平均。</p><a href="index.html">返回：出生年份与一生的气候 →</a></section><div id="tooltip" role="status"></div></body></html>
